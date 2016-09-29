@@ -1,1 +1,1 @@
-ls -l | perl -lne 'if($. >=2) {print join ("; ", split(/\s+/, $_,9)).";"} '>heyyou
+ls -l | perl -lne 'if($. >=2) {print join (";", split(/\s+/, $_,9)) .";"}; chomp;'>hey
