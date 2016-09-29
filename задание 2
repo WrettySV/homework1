@@ -1,0 +1,1 @@
+cat 'heyyou' |perl -lnaF';' -e 'BEGIN{$i=0};if($F[4]>1048576){print $F[8],$i++};END {print "total: $.\nsize of which is more then 1Mb: $i \n",}'
