@@ -1,0 +1,4 @@
+perl -d proj3.pl
+DB<1> l
+DB<1> c
+q
